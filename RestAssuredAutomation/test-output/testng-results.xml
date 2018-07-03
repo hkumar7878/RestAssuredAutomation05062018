@@ -2,20 +2,69 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1539" started-at="2018-06-20T17:09:56Z" finished-at="2018-06-20T17:09:57Z">
+  <suite name="Get Users API  Test" duration-ms="46252" started-at="2018-07-02T17:07:04Z" finished-at="2018-07-02T17:07:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1539" started-at="2018-06-20T17:09:56Z" finished-at="2018-06-20T17:09:57Z">
+    <test name="users" duration-ms="46252" started-at="2018-07-02T17:07:04Z" finished-at="2018-07-02T17:07:50Z">
       <class name="com.qa.scripts.TC_001_GetAPITest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@27efef64]" name="setUp" is-config="true" duration-ms="10" started-at="2018-06-20T17:09:56Z" finished-at="2018-06-20T17:09:56Z">
+        <test-method status="PASS" signature="beforeTestInit()[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="beforeTestInit" is-config="true" duration-ms="7" started-at="2018-07-02T17:07:04Z" finished-at="2018-07-02T17:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestInit -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="beforeTest" is-config="true" duration-ms="171" started-at="2018-07-02T17:07:04Z" depends-on-methods="com.qa.base.TestBase.beforeTestInit" finished-at="2018-07-02T17:07:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@692fd26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="setUp" is-config="true" duration-ms="7588" started-at="2018-07-02T17:07:05Z" finished-at="2018-07-02T17:07:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.scripts.TC_001_GetAPITest.getRequestTest_SpecificUser(java.lang.String,java.lang.String) throws org.apache.http.client.ClientProtocolException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getTest()[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@27efef64]" name="getTest" duration-ms="1499" started-at="2018-06-20T17:09:56Z" finished-at="2018-06-20T17:09:57Z">
+        <test-method status="PASS" signature="getRequestTest_SpecificUser(java.lang.String, java.lang.String)[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="getRequestTest_SpecificUser" duration-ms="37355" started-at="2018-07-02T17:07:12Z" data-provider="userData" finished-at="2018-07-02T17:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Single User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/api/users/2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTest -->
+        </test-method> <!-- getRequestTest_SpecificUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="afterMethod" is-config="true" duration-ms="441" started-at="2018-07-02T17:07:50Z" finished-at="2018-07-02T17:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getRequestTest_SpecificUser status=SUCCESS method=TC_001_GetAPITest.getRequestTest_SpecificUser(java.lang.String, java.lang.String)[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.scripts.TC_001_GetAPITest@7334aada]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-02T17:07:50Z" finished-at="2018-07-02T17:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- com.qa.scripts.TC_001_GetAPITest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- users -->
+  </suite> <!-- Get Users API  Test -->
 </testng-results>

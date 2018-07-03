@@ -4,7 +4,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
-public class TestUtil {
+public class TestUtil_API {
 	
 	public static String getValueByJPath(JSONObject responseJson,String jpath) throws JSONException
 	
